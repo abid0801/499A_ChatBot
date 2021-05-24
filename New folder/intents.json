@@ -1,0 +1,272 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+
+
+        {"tag": "tired",
+         "patterns": ["I feel mentally tired", "Are everyone tired like", "I am so tired that I want to die", "Why I feel tired all the time?", "I am so tired, can not live more"],
+         "responses": ["Oh dear it will be okay. Share more how you feel about the issue", "I am here to help you, tell me how do you feel", " Don't worry I can help you.Share more how you feel about the issue", "For how long you are feeling this way? Share more how you feel about the issue."],
+         "context": [""]
+        },
+        {"tag": "suicidal",
+         "patterns": ["I often feel suicidal", "I want to suicide", "I don't want to live anymore" ],
+         "responses": ["For how long you're getting suicidal thoughts?", "Don't worry dear. Fro when you are feeling this?","Can you please I laborate from when you are feeling this"],
+         "context": [""]
+        },
+        {"tag": "Sleep",
+         "patterns": ["I can't sleep properly", "I think I have insomonia, I can't sleep", "I go to bed very late, I can't sleep" ],
+         "responses": ["What do you do at night when you don't sleep?","Any particular activity you do when you don't sleep?"],
+         "context": [""]
+        },
+        {"tag": "Night activity",
+         "patterns": ["I just walk in the room", "Nothing much, I sit on my balcony", "I walk in the room" ],
+         "responses": ["Do you feel to talk with someone then?"],
+         "context": [""]
+        },
+        {"tag": "Personality_mbti",
+         "patterns": ["Am i seek?","Can you help me?","I need help"],
+         "responses": ["Let's do a test, Are okay socializing with starngers in social programs, or you are only comfortable with known person?"],
+         "context": [""]
+        },
+        {"tag": "Personality_mbti_1",
+         "patterns": ["No I am not okay with stangers" ],
+         "responses": ["Are you a practical person or imaginative?"],
+         "context": [""]
+        },
+        {"tag": "Personality_mbti_2",
+         "patterns": ["I am okay with stangers"],
+         "responses": ["Are you a practical person or imaginative?"],
+         "context": [""]
+        },
+        {"tag": "Personality_mbti_3",
+         "patterns": ["I am practical person","I am practical","Practical" ],
+         "responses": ["What mean to you the most? you emotion or you ethics"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "Personality_mbti_4",
+         "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+         "responses": ["What mean to you the most? you pricipal or you ethics"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "Personality_mbti_5",
+                "patterns": ["Principles","My Principles"],
+                "responses": ["Are more drawn toward the: Convincing or Touching?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_6",
+                "patterns": ["Emotions","My Emotions"],
+                "responses": ["Are more drawn toward the: Convincing or Touching?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_7",
+                "patterns": ["Convincing"],
+                "responses": ["Do you prefer to work: to deadlines or just whenever?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_8",
+                "patterns": ["Touching"],
+                "responses": ["Do you prefer to work: to deadlines or just whenever?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_9",
+                "patterns": ["To deadlines", "Deadlines"],
+                "responses": ["Do you tend to choose: Rather carefully or Somewhat impulsively"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_10",
+                "patterns": ["Just “whenever”n","Whenever I like"],
+                "responses": ["Do you tend to choose: Rather carefully or Somewhat impulsively?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_11",
+                "patterns": ["carefully"],
+                "responses": ["At parties do you:Stay late, with increasing energy or Leave early with decreased energy"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_12",
+                "patterns": ["Somewhat impulsively","impulsively"],
+                "responses": ["At parties do you:Stay late, with increasing energy or Leave early with decreased energy"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_13",
+                "patterns": ["Stay late","Stay late, with increasing energy"],
+                "responses": ["Are you more attracted to: Sensible people or Imaginative people?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_14",
+                "patterns": ["Leave early with decreased energy","leave early"],
+                "responses": ["Are you more attracted to: Sensible people or Imaginative people?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_15",
+                "patterns": ["Sensible people","I like sensible people"],
+                "responses": ["Are you more interested in:What is actual or What is possible?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_16",
+                "patterns": ["Imaginative people","I like Imaginative people"],
+                "responses": ["Are you more interested in:What is actual or What is possible?"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_17",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Personality_mbti_4",
+                "patterns": ["I am a imaginitive person","I am imaginitive","Imaginitive"],
+                "responses": ["What mean to you the most? you emotion or you ethics"],
+                "context": ["search_hospital_by_type"]
+        }
+        
+
+   ]
+}
